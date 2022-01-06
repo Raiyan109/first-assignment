@@ -1,33 +1,40 @@
 body{
     font-family: 'Alfa Slab One', cursive;
+    
 }
 h1{
     font-size: 80px ;
     font-weight: 900;
 }
 #mission-color{
-    color: yellow;
+    color: DarkGoldenrod;
 }
-#heading-left-border{
+.heading-left-border{
     border-left: 5px solid ;
     border-image: linear-gradient(orangered, yellow);
-    border-image-slice: 1 ;
+    border-image-slice: 0 0 0 2 ;
     border-radius: 10px;
+}
+#stay-focused{
+    border: 0 none;
+    width: 200%;
+    
 }
 p{
     font-size: 20px ;
 }
-h3{
+.explore{
     font-weight: 100;
     color: white;
     background: orangered;
-    padding: 15px ;
+    padding: 20px ;
     width: 250px;
+    text-decoration: none;
 }
 .flexible-container{
     display: flex;
     width: 40% ;
-    margin: 20px;
+    margin: 50px;
     padding: 20px;
 }
 .person-0{
