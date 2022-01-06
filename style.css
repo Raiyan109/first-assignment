@@ -8,6 +8,12 @@ h1{
 #mission-color{
     color: yellow;
 }
+#heading-left-border{
+    border-left: 5px solid ;
+    border-image: linear-gradient(orangered, yellow);
+    border-image-slice: 1 ;
+    border-radius: 10px;
+}
 p{
     font-size: 20px ;
 }
@@ -28,7 +34,39 @@ h3{
     max-width: 100%;
     height: auto;
 }
+#my-mission-heading{
+    color: MidnightBlue;
+    text-align: center;
+}
+#my-mission-flexible-container{
+    display: flex;
+    width: 30%;
+    margin: 4%;
+    padding: 1% ;
+}
+#mission-style{
+    border: 0px none;
+    border-radius: 30px ;
+    background-color: thistle;
+    margin-right: 10px ;
+    padding-left: 20px ;
 
+}
+#vision-style{
+    border: 0px none;
+    border-radius: 30px ;
+    background-color: turquoise;
+    margin-right: 10px;
+    padding-left: 20px ;
+
+}
+#goal-style{
+    border: 0px none;
+    border-radius: 30px ;
+    background-color: violet;
+    padding-left: 20px ;
+
+}
 
 
 
