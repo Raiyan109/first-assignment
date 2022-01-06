@@ -30,6 +30,7 @@ p{
     padding: 20px ;
     width: 250px;
     text-decoration: none;
+    border-radius: 7px;
 }
 .flexible-container{
     display: flex;
@@ -56,6 +57,9 @@ p{
     width: 30%;
     margin: 4%;
     padding: 1% ;
+}
+#mid-2022{
+    color: PeachPuff;
 }
 #mission-style{
     border: 0px none;
@@ -109,7 +113,7 @@ input[type=email]{
 }
 input[type=password]{
     padding: 5px;
-    border: 2px solid wheat;
+    border: 2px solid ;
     border-radius: 5px ;
     margin-bottom: 10px ;
 }
@@ -120,22 +124,12 @@ input[type=submit]{
     margin-top: 10px ;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#foot-2022{
+    color: tomato;
+}
+#foot-font{
+    font-size: 30px ;
+}
 #under{
     background-color: black;
     color: white;
@@ -144,4 +138,21 @@ input[type=submit]{
     padding: 15px ;
     line-height: 70px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
